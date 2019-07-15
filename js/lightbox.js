@@ -1,0 +1,1 @@
+var lightbox=document.getElementById("lightbox"),content=document.getElementById("content"),close=document.getElementById("closelightbox"),img=document.createElement("img"),display=function(e){var t=content.appendChild(img),n=e.childNodes[1];t.src=n.src,lightbox.style.display="block"};close.onclick=function(){lightbox.style.display="none"};
