@@ -4,7 +4,12 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>اقسام معهد الصفوة</title>
+      <meta name="theme-color" content="#30336b"> 
+      <meta name="autor" content="Melad Samuel">
+      <meta name="email" content="meladsamuel2@gmail.com">
+      <title>صور معهد الصفوة العالي للهندسة</title>
+      <meta name="description" content="صور معهد الصفوة العالي للهندسة و قاعات الانتظار والمعامل المختلفة و ملعب كرة القدم والستراحة">
+      <meta name="keywords" content="صور معهد الصفوة العالي للهندسة , صور معامل معهد الصفوة العالي للهندسة , صور ملعب كرة القدم">
       <link rel="stylesheet" href="css/main.css">
       <link rel="stylesheet" href="css/rtl.css">
       <meta name="robots" content="noindex">
@@ -31,15 +36,16 @@
       </div>
             <!-- header and navigation bar -->
       <div class="header sub-page">
-            <div class="overlay"></div>
-            <div class="overlay blue"></div>
-            <div class="overlay shadow"></div>
+            <div class="overlay greenLay"></div>
+            <div class="overlay blueLayHalf"></div>
+            <div class="BG overlay ImgBack05"></div>
             <div id="nav" class="nav box-shadow">
                   <div class="container">
-                        <span class="logo-back"><img src="img/logo.jpg" alt="Al-safwa logo"></span>
-                        <span class="logo start-ab"><img src="img/Al-Safwa.jpg" alt="Al-safwa logo"></span>
-                        <ul class="list-unstyled end-ab">
-                              <li id="bars" class="bars"><i class="fas fa-bars"></i></li>
+                        <span class="logo start-ab"><img src="img/Al-Safwa.png" alt="معهد الصفوة العالي للهندسة"></span>
+                        <span class="logo-back"><img src="img/logo.png" alt="الصفوة"></span>
+                        <div id="barsOpen" class="bars end-ab"><i class="fas fa-bars"></i></div>
+                        <ul id="list" class="list-unstyled end-ab">
+                              <li id="barsClose" class="bars"><i class="fas fa-times"></i></li>
                               <li><a href="index.html">الصفحة الرئسية</a></li>
                               <li><a href="department.html">الاقسام</a></li>
                               <li><a href="gallery.html">صور المعهد</a></li>
@@ -49,18 +55,34 @@
                         </ul>
                   </div>
             </div>
-            <h1>صور المعهد</h1>
+            <h1 class="headerText">صور المعهد</h1>
       </div>
-      <!-- Al-Safwa department -->
+      <!-- Al-Safwa galley     -->
       <div id="lightbox" class="lightbox">
-            <div class="control-light"><span id="closelightbox"<i class="fas fa-times fa-2x"></i></span></div>
+            <div class="control-light"><span id="closelightbox"><i class="fas fa-times fa-2x"></i></span></div>
             <div id="content"class="content"></div>
       </div>
       <div class="gray gallery">
             <div class="container">
                   <div class="row">
-                        <div class="col-4 col-s-6 padding ">
-                              <div class="box box-shadow padding">
+                        <div class="col-12 col-s-12">
+                              <div id="myBtnContainer">
+                                    <button class="btn active" onclick="filterSelection('all')"> عرض الكل</button>
+                                    <button class="btn" onclick="filterSelection('roat')"> الطرق والممرات</button>
+                                    <button class="btn" onclick="filterSelection('playground')"> ملعب كرةالقدم</button>
+                                    <button class="btn" onclick="filterSelection('gate')">حديقة المعهد بالمدخل</button>
+                                    <button class="btn" onclick="filterSelection('clinic')">العيادة</button>
+                                    <button class="btn" onclick="filterSelection('computer')">قاعات الكمبيوتر والأنترنت</button>
+                                    <button class="btn" onclick="filterSelection('office')">مكاتب عاملين</button>
+                                    <button class="btn" onclick="filterSelection('stuf')">مجلس الأمناء وطاقم التدريس</button>
+                                    <button class="btn" onclick="filterSelection('liber')">المكتبة</button>
+                                    <button class="btn" onclick="filterSelection('stra')">المدرجات</button>
+                                    <button class="btn" onclick="filterSelection('mosque')">المسجد</button>
+                                    <button class="btn" onclick="filterSelection('section')">سكاشن ومعامل وورش</button>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column roat">
+                              <div class="box box-shadow ">
                                     <div onclick="display(this)" class="img-box">
                                           <img src="img/gallery/group_01.jpg" alt=" مبني ا">
                                           <div  class="overlay img-BG">
@@ -70,8 +92,8 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="col-4 col-s-6 padding ">
-                              <div class="box box-shadow ">
+                        <div class="col-4 col-s-6 column roat">
+                              <div class="box box-shadow">
                                     <div onclick="display(this)" class="img-box">
                                           <img src="img/gallery/group_02.jpg" alt="مدخل مبني ا">
                                           <div  class="overlay img-BG">
@@ -81,8 +103,8 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="col-4 col-s-12 padding ">
-                              <div class="box box-shadow padding">
+                        <div class="col-4 col-s-6 column roat">
+                              <div class="box box-shadow">
                                     <div onclick="display(this)" class="img-box">
                                           <img src="img/gallery/group_03.jpg" alt="قاعة انتظار مبني ا">
                                           <div  class="overlay img-BG">
@@ -92,7 +114,7 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="col-4 col-s-6 padding ">
+                        <div class="col-4 col-s-6 column playground">
                               <div class="box box-shadow ">
                                     <div onclick="display(this)" class="img-box">
                                           <img src="img/gallery/group_11.jpg" alt="ملعب كرة القدم">
@@ -103,8 +125,8 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="col-4 col-s-12 padding ">
-                              <div class="box box-shadow padding">
+                        <div class="col-4 col-s-6 column playground">
+                              <div class="box box-shadow ">
                                     <div onclick="display(this)" class="img-box">
                                           <img src="img/gallery/group_12.jpg" alt="ملعب كرة القدم">
                                           <div  class="overlay img-BG">
@@ -114,8 +136,8 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="col-4 col-s-12 padding ">
-                              <div class="box box-shadow padding">
+                        <div class="col-4 col-s-6 column gate">
+                              <div class="box box-shadow ">
                                     <div onclick="display(this)" class="img-box">
                                           <img src="img/gallery/group_21.jpg" alt="مدخل المعهد">
                                           <div  class="overlay img-BG">
@@ -125,8 +147,8 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="col-4 col-s-12 padding ">
-                              <div class="box box-shadow padding">
+                        <div class="col-4 col-s-6 column gate">
+                              <div class="box box-shadow ">
                                     <div onclick="display(this)" class="img-box">
                                           <img src="img/gallery/group_22.jpg" alt="حديقة المعهد">
                                           <div  class="overlay img-BG">
@@ -136,8 +158,8 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="col-4 col-s-12 padding ">
-                              <div class="box box-shadow padding">
+                        <div class="col-4 col-s-6 column gate">
+                              <div class="box box-shadow ">
                                     <div onclick="display(this)" class="img-box">
                                           <img src="img/gallery/group_23.jpg" alt="حديقة معهد الصفوة">
                                           <div  class="overlay img-BG">
@@ -147,8 +169,8 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="col-4 col-s-12 padding ">
-                              <div class="box box-shadow padding">
+                        <div class="col-4 col-s-6 column clinic">
+                              <div class="box box-shadow">
                                     <div onclick="display(this)" class="img-box">
                                           <img src="img/gallery/group_31.jpg" alt="العيادة">
                                           <div  class="overlay img-BG">
@@ -158,19 +180,19 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="col-4 col-s-12 padding ">
-                              <div class="box box-shadow padding">
+                        <div class="col-4 col-s-6 column computer">
+                              <div class="box box-shadow ">
                                     <div onclick="display(this)" class="img-box">
-                                          <img src="img/gallery/group_41.jpg" alt="مجلس الأمناء وطاقم التدريس">
+                                          <img src="img/gallery/group_41.jpg" alt="قاعات الكمبيوتر و الانترنت">
                                           <div  class="overlay img-BG">
                                                 <span><i class="fas fa-expand"></i></span>
-                                                <p>مجلس الأمناء وطاقم التدريس</p>
+                                                <p>قاعات الكمبيوتر و الانترنت</p>
                                           </div>
                                     </div>
                               </div>
                         </div>
-                        <div class="col-4 col-s-12 padding ">
-                              <div class="box box-shadow padding">
+                        <div class="col-4 col-s-6 column computer">
+                              <div class="box box-shadow ">
                                     <div onclick="display(this)" class="img-box">
                                           <img src="img/gallery/group_42.jpg" alt="قاعات الكمبيوتر و الانترنت">
                                           <div  class="overlay img-BG">
@@ -180,8 +202,8 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="col-4 col-s-12 padding ">
-                              <div class="box box-shadow padding">
+                        <div class="col-4 col-s-6 column stuf">
+                              <div class="box box-shadow">
                                     <div onclick="display(this)" class="img-box">
                                           <img src="img/gallery/group_51.jpg" alt="مجلس الأمناء وطاقم التدريس">
                                           <div  class="overlay img-BG">
@@ -191,8 +213,8 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="col-4 col-s-12 padding ">
-                              <div class="box box-shadow padding">
+                        <div class="col-4 col-s-6 column stuf">
+                              <div class="box box-shadow">
                                     <div onclick="display(this)" class="img-box">
                                           <img src="img/gallery/group_52.jpg" alt="مجلس الأمناء وطاقم التدريس">
                                           <div  class="overlay img-BG">
@@ -202,8 +224,8 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="col-4 col-s-12 padding ">
-                              <div class="box box-shadow padding">
+                        <div class="col-4 col-s-6 column stuf">
+                              <div class="box box-shadow">
                                     <div onclick="display(this)" class="img-box">
                                           <img src="img/gallery/group_53.jpg" alt="مجلس الأمناء وطاقم التدريس">
                                           <div  class="overlay img-BG">
@@ -213,8 +235,8 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="col-4 col-s-12 padding ">
-                              <div class="box box-shadow padding">
+                        <div class="col-4 col-s-6 column stra">
+                              <div class="box box-shadow">
                                     <div onclick="display(this)" class="img-box">
                                           <img src="img/gallery/group_61.jpg" alt="المدرجات">
                                           <div  class="overlay img-BG">
@@ -224,8 +246,8 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="col-4 col-s-12 padding ">
-                              <div class="box box-shadow padding">
+                        <div class="col-4 col-s-6 column stra">
+                              <div class="box box-shadow">
                                     <div onclick="display(this)" class="img-box">
                                           <img src="img/gallery/group_62.jpg" alt="المدرجات">
                                           <div  class="overlay img-BG">
@@ -235,8 +257,8 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="col-4 col-s-12 padding">
-                              <div class="box box-shadow padding">
+                        <div class="col-4 col-s-6 column stra">
+                              <div class="box box-shadow">
                                     <div onclick="display(this)" class="img-box">
                                           <img src="img/gallery/group_63.jpg" alt="المدرجات">
                                           <div  class="overlay img-BG">
@@ -246,8 +268,8 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="col-4 col-s-12 padding">
-                              <div class="box box-shadow padding">
+                        <div class="col-4 col-s-6 column liber">
+                              <div class="box box-shadow">
                                     <div onclick="display(this)" class="img-box">
                                           <img src="img/gallery/group_71.jpg" alt="المكتبة">
                                           <div  class="overlay img-BG">
@@ -257,8 +279,8 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="col-4 col-s-12 padding">
-                              <div class="box box-shadow padding">
+                        <div class="col-4 col-s-6 column liber">
+                              <div class="box box-shadow">
                                     <div onclick="display(this)" class="img-box">
                                           <img src="img/gallery/group_72.jpg" alt="المكتبة">
                                           <div  class="overlay img-BG">
@@ -268,8 +290,8 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="col-4 col-s-12 padding">
-                              <div class="box box-shadow padding">
+                        <div class="col-4 col-s-6 column office">
+                              <div class="box box-shadow">
                                     <div onclick="display(this)" class="img-box">
                                           <img src="img/gallery/group_81.jpg" alt="مكاتب عاملين">
                                           <div  class="overlay img-BG">
@@ -279,13 +301,354 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="col-4 col-s-12 padding">
-                              <div class="box box-shadow padding">
+                        <div class="col-4 col-s-6 column office">
+                              <div class="box box-shadow">
                                     <div onclick="display(this)" class="img-box">
                                           <img src="img/gallery/group_82.jpg" alt="مكاتب عاملين">
                                           <div  class="overlay img-BG">
                                                 <span><i class="fas fa-expand"></i></span>
                                                 <p>مكاتب عاملين</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column office">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_83.jpg" alt="مكاتب عاملين">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>مكاتب عاملين</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column mosque">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_91.jpg" alt="المسجد">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>المسجد</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column mosque">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_92.jpg" alt="المسجد">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>المسجد</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_101.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_102.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_103.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_104.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_105.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_107.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_108.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_109.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_110.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_111.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_112.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_113.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_114.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_115.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_116.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_117.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_118.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_119.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_120.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_121.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_122.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_123.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_124.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_125.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_126.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_127.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_128.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-4 col-s-6 column section">
+                              <div class="box box-shadow">
+                                    <div onclick="display(this)" class="img-box">
+                                          <img src="img/gallery/group_129.jpg" alt="سكاشن ومعامل وورش">
+                                          <div  class="overlay img-BG">
+                                                <span><i class="fas fa-expand"></i></span>
+                                                <p>سكاشن ومعامل وورش</p>
                                           </div>
                                     </div>
                               </div>
@@ -297,8 +660,8 @@
       <div class="copy-right  clear-fix">
             <div class="container">
                   <div class="row">
-                        <div class="col-6 col-s-6"><span class="cp-rt">كافة الحقوق محفوظة &copy; لمعهد الصفوة <br> مدعوم من طلاب الصفوة</span class="cp-rt"></div>
-                        <div class="col-6 col-s-6 end-text">
+                        <div class="col-6 col-s-12"><span class="cp-rt">كافة الحقوق محفوظة &copy; لمعهد الصفوة <br> مدعوم من طلاب الصفوة</span class="cp-rt"></div>
+                        <div class="col-6 col-s-12 end-text">
                               <ul class="list-unstyled social">
                                     <li><a class="icon-facebook-f" target="_blank" href="https://www.facebook.com/AlSafwa.Institute/"><i class="fab fa-facebook-f fa-fw fa-2x"></i></a></li>
                                     <li><a class="icon-instagram" target="_blank" href="https://www.instagram.com/alsafwa_institute/"><i class="fab fa-instagram fa-fw fa-2x"></i></a></li>

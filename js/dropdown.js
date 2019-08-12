@@ -1,18 +1,19 @@
-var bars = document.getElementById("bars");
+var barsOpen = document.getElementById("barsOpen"),
+  barsClose = document.getElementById("barsClose"),
+  list = document.getElementById("list"),
+  nav = document.getElementById("nav"),
+  sticky = nav.offsetTop + 33;
 window.onscroll = function() {myFunction()};
-var nav = document.getElementById("nav");
-var sticky = nav.offsetTop + 33;
-console.log(nav.offsetTop);
 function myFunction() {
   if (window.pageYOffset > sticky) {
-    nav.classList.add("sticky");
+    nav.classList = "nav box-shadow sticky";
   } else {
-    nav.classList.remove("sticky");
+    nav.classList = "nav box-shadow";
   }
 }
-bars.onclick = function () {
-  nav.classList.toggle("active");
+barsOpen.onclick = function () {
+  list.classList = "list-unstyled end-ab active";
 };
-bars.onclick = function () {
-  nav.classList.toggle("active");
+barsClose.onclick = function () {
+  list.classList = "list-unstyled end-ab"; 
 };
