@@ -46,7 +46,7 @@ and link it in `department.html`
 
 
 # Issues
-If you come across any issues please [report them here](https://github.com/meladsamuel/al-safwa "report them here").
+If you come across any issues please [report them here](https://github.com/meladsamuel/al-safwa/issues "report them here").
 or 
 contact us in **01120623331** ->(mahmoud amr) or **01275888348** ->(melad samuel)
 
