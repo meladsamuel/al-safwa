@@ -1,7 +1,7 @@
 /* normalize */
 html{height:100%;line-height:1.8;-webkit-text-size-adjust:100%;font-size:16px}body{height:100%;margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
 /* fontawsome */
-.fa,.fab,.fal,.far,.fas{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1}.fa-2x{font-size:2em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-file-pdf::before{content:"\f1c1"}.fa-map-marker-alt:before{content:"\f3c5"}.fa-envelope:before{content:"\f0e0"}.fa-phone:before{content:"\f095"}.fa-bars:before{content:"\f0c9"}.fa-angle-left:before{content:"\f104"}.fa-angle-right:before{content:"\f105"}.fa-university:before{content:"\f19c"}.fa-crosshairs:before{content:"\f05b"}.fa-clock:before{content:"\f017"}.fa-newspaper:before{content:"\f1ea"}.fa-stamp:before{content:"\f5bf"}.fa-copyright:before{content:"\f1f9"}.fa-expand:before{content:"\f065"}.fa-facebook-f:before{content:"\f39e"}.fa-instagram:before{content:"\f16d"}.fa-linkedin:before{content:"\f08c"}.fa-times:before{content:"\f00d"}@font-face{font-family:"Font Awesome 5 Brands";font-style:normal;font-weight:400;font-display:auto;src:url(../font/webfonts/fa-brands-400.eot);src:url(../font/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(../font/webfonts/fa-brands-400.woff2) format("woff2"),url(../font/webfonts/fa-brands-400.woff) format("woff"),url(../font/webfonts/fa-brands-400.ttf) format("truetype"),url(../font/webfonts/fa-brands-400.svg#fontawesome) format("svg")}.fab{font-family:"Font Awesome 5 Brands"}@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:400;font-display:auto;src:url(../font/webfonts/fa-regular-400.eot);src:url(../font/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(../font/webfonts/fa-regular-400.woff2) format("woff2"),url(../font/webfonts/fa-regular-400.woff) format("woff"),url(../font/webfonts/fa-regular-400.ttf) format("truetype"),url(../font/webfonts/fa-regular-400.svg#fontawesome) format("svg")}.far{font-weight:400}@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:900;font-display:auto;src:url(../font/webfonts/fa-solid-900.eot);src:url(../font/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(../font/webfonts/fa-solid-900.woff2) format("woff2"),url(../font/webfonts/fa-solid-900.woff) format("woff"),url(../font/webfonts/fa-solid-900.ttf) format("truetype"),url(../font/webfonts/fa-solid-900.svg#fontawesome) format("svg")}.fa,.far,.fas{font-family:"Font Awesome 5 Free"}.fa,.fas{font-weight:900}
+.fa,.fab,.fal,.far,.fas{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1}.fa-2x{font-size:2em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-file-pdf::before{content:"\f1c1"}.fa-map-marker-alt:before{content:"\f3c5"}.fa-envelope:before{content:"\f0e0"}.fa-phone:before{content:"\f095"}.fa-bars:before{content:"\f0c9"}.fa-angle-left:before{content:"\f104"}.fa-angle-right:before{content:"\f105"}.fa-university:before{content:"\f19c"}.fa-crosshairs:before{content:"\f05b"}.fa-clock:before{content:"\f017"}.fa-newspaper:before{content:"\f1ea"}.fa-stamp:before{content:"\f5bf"}.fa-copyright:before{content:"\f1f9"}.fa-expand:before{content:"\f065"}.fa-facebook-f:before{content:"\f39e"}.fa-instagram:before{content:"\f16d"}.fa-linkedin:before{content:"\f08c"}.fa-language:before{content:"\f1ab"}.fa-times:before{content:"\f00d"}@font-face{font-family:"Font Awesome 5 Brands";font-style:normal;font-weight:400;font-display:auto;src:url(../font/webfonts/fa-brands-400.eot);src:url(../font/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(../font/webfonts/fa-brands-400.woff2) format("woff2"),url(../font/webfonts/fa-brands-400.woff) format("woff"),url(../font/webfonts/fa-brands-400.ttf) format("truetype"),url(../font/webfonts/fa-brands-400.svg#fontawesome) format("svg")}.fab{font-family:"Font Awesome 5 Brands"}@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:400;font-display:auto;src:url(../font/webfonts/fa-regular-400.eot);src:url(../font/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(../font/webfonts/fa-regular-400.woff2) format("woff2"),url(../font/webfonts/fa-regular-400.woff) format("woff"),url(../font/webfonts/fa-regular-400.ttf) format("truetype"),url(../font/webfonts/fa-regular-400.svg#fontawesome) format("svg")}.far{font-weight:400}@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:900;font-display:auto;src:url(../font/webfonts/fa-solid-900.eot);src:url(../font/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(../font/webfonts/fa-solid-900.woff2) format("woff2"),url(../font/webfonts/fa-solid-900.woff) format("woff"),url(../font/webfonts/fa-solid-900.ttf) format("truetype"),url(../font/webfonts/fa-solid-900.svg#fontawesome) format("svg")}.fa,.far,.fas{font-family:"Font Awesome 5 Free"}.fa,.fas{font-weight:900}
 
 /* ###################################################################################
    ##############################     freamwork     ####################################
@@ -17,8 +17,8 @@ html{height:100%;line-height:1.8;-webkit-text-size-adjust:100%;font-size:16px}bo
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-::-moz-selection {color: #fff; background: #30336bd9}
-::selection {color: #fff; background: #30336bd9;}
+::-moz-selection {color: #fff; background: #4267B2}
+::selection {color: #fff; background: #4267B2;}
 
 @media only screen and (max-width:767px) { /* mobile and tablet screen */
     html {font-size: 12px !important}
@@ -41,6 +41,13 @@ a {
     content: "";
     display: table;
     clear: both;
+}
+.activeLink {
+    color: #007bb5;
+}
+.disableLink {
+    pointer-events: none;
+    color: #777;
 }
 /* ################################################################################### */
 
@@ -70,7 +77,6 @@ a {
     .nav {
         position: fixed !important;
         top: 0 !important;
-        overflow: hidden
     }
     .nav ul {height:0;overflow: hidden;}
     .bars {
@@ -78,14 +84,8 @@ a {
         padding: 12px 18px;
         font-size: 26px
     }
-    .logo{
-        display: none;
-    }
-    .logo-back {
-        display: inline-block !important;
-    }
     ul.active {
-        background-color: #30336bd9;
+        background-color: #4267B2;
         position: fixed;
         top:0;
         left: 0;
@@ -104,12 +104,13 @@ a {
     .slider-container {
         margin-top: 70px !important;
     }
+
 }
 .pre-header .pre-info span {
     padding: 0 5px;
 }
 .header {
-    color: #95afc0;
+    color: #fff;
     position: relative;
     transition: all 1s ease-in-out;
 
@@ -124,28 +125,43 @@ a {
     background-size: cover;
     z-index: -1;
 }
-.logo {background: rgba(255, 255, 255, 0.986)}
-.logo, .logo-back {
+.logo {
+    background: rgba(255, 255, 255, 0.986);
     margin-top: -54px;
     height: 160px;
     width: 160px;
     transition: all .6s ease;
 
 }
-.logo img, .logo-back img {
+.logo img{
     padding:10px;
     width:100%;
     transition: all .6s ease;
 
 }
-.logo-back, .sticky .logo, .nav .bars {display: none}
+@media only screen and (max-width:992px) {
+    .logo {
+        margin-top: 0;
+        height: 120px;
+        width: 120px;    
+    }
+}
+.sticky .logo{
+    height: 70px;
+    width: 70px;
+    margin-top: 0;
+}
+.sticky .logo img{
+    padding:1px;
+}
+.nav .bars {display: none}
 .nav {
     position: absolute;
     top: 54px;
     width: 100%;
     height: 70px;
-    background-color:#30336bd9 ;
-    color: #95afc0;
+    background-color:#4267B2 ;
+    color: #fff;
     z-index: 9999;
 }
 .nav li a {
@@ -153,16 +169,13 @@ a {
     display: inline-block;
 }
 .nav li a:hover {
-    color: white;
+    background-color: rgba(0,0,0,.2);
 }
 .sticky {
     position: fixed;
     top: 0;
-    overflow: hidden;
 }
-.sticky .logo-back {
-    display: inline-block;
-}
+
 .headerText {
     text-align:center;
     bottom: 30px;
@@ -206,7 +219,7 @@ a {
 .slide-next,
 .slide-prev-ar,
 .slide-next-ar {
-    background-color: #30336bd9;
+    background-color: #4267B2;
     opacity: .3;
     padding: 10px 18px;
     color: white;
@@ -229,12 +242,11 @@ a {
     text-align: center;
 }
 .slide-number {
-    background-color: #30336bd9;
-    padding: 12px 0;
+    background-color: #4267B2;
+    padding: 16px 0;
     color: white;
     z-index: 2;
     text-align:center;
-    font-size:.75rem;
 }
 .slide-control .indicators  {
     position: absolute;
@@ -263,7 +275,7 @@ a {
     box-shadow: 0px 0px 2px 1px rgba(154, 3, 255, 0.12);
 }
 .indicators ul li.active, .indicators ul li:hover {
-    background-color: #30336bd9;
+    background-color: #4267B2;
     color: #fff;
     height: 50px;
 }
@@ -286,7 +298,7 @@ a {
 }
 .news {
     background-color: #222f3e; 
-    color: #95afc0;
+    color: #fff;
 }
 .news-section {
     font-size: 34px;
@@ -303,7 +315,7 @@ a {
 }
 .info div span, .info div i  {
     font-weight: 600;
-    color: #30336bd9;
+    color: #4267B2;
 }
 .info div p {
     padding:0 30px;
@@ -405,10 +417,10 @@ a {
   }
   
   .gallery .btn {
-    border: 2px solid #30336bd9;
+    border: 2px solid #4267B2;
     padding: 12px 16px;
     background-color: transparent;
-    color: #30336bd9;
+    color: #4267B2;
     cursor: pointer;
     outline: none;
     border-radius: 4px;
@@ -416,7 +428,7 @@ a {
   }
   /* Add a dark background color to the active button */
   .gallery .btn.active, .gallery .btn:hover {
-    background-color: #30336bd9;
+    background-color: #4267B2;
      color: #fafafa;
   }
   
@@ -507,13 +519,13 @@ a {
     
 }
 .blueLayHalf{
-    background: linear-gradient(180deg,transparent,#30336bd9);
+    background: linear-gradient(180deg,transparent,#4267B2);
 }
-.blueLay{background: #30336bd9;opacity: .8;}
+.blueLay{background: #4267B2;opacity: .8;}
 .greenLayHalf{
-    background: linear-gradient(180deg,transparent,#E91E63);
+    background: linear-gradient(180deg,transparent,rgba(99, 205, 218,1.0));
 }
-.greenLay{background: #E91E63;opacity: .8;}
+.greenLay{background: rgba(99, 205, 218,1.0);opacity: .8;}
 
 .pinklayhalf {
     background: linear-gradient(180deg,transparent,#b819d8);
